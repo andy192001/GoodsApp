@@ -35,6 +35,8 @@ public class Main {
         } catch (SQLException e) {
             throw new RuntimeException(e);
         }
+
+        System.out.println("Done!!!");
     }
 
     private static void initDataSource() throws IOException {
